@@ -1,0 +1,11 @@
+{
+  "organism": "lobonema-smithii",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0399.gif",
+    "http://www.toxinology.com/images/marine_life/MIML0399.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

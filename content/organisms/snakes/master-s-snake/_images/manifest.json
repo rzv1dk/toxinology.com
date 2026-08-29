@@ -1,0 +1,19 @@
+{
+  "organism": "master-s-snake",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0506.gif",
+    "http://www.toxinology.com/images/snakes/SNP05061.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05062.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05063.jpg",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Elapidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Drysdalia.gif",
+    "http://www.toxinology.com/images/snakes/SNML0506.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

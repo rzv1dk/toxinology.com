@@ -1,0 +1,396 @@
+---
+id: "isometrus-bilyi"
+title: "Isometrus bilyi"
+scientific_name: "Isometrus bilyi"
+aliases: []
+topic: "organisms"
+subject: "scorpions"
+risk: "Unknown Risk"
+countries: ["Australia"]
+keywords: ["scorpions","Unknown Risk","Buthidae","Isometrus","bilyi"]
+image_source: "../assets/icons/icon-alt-desert.png"
+source_url: "http://54.253.37.47/"
+source_accessed: "2026-08-29"
+review_status: "full-legacy-migration-unreviewed"
+family: ["Buthidae"]
+genus: ["Isometrus"]
+species: ["bilyi"]
+subspecies: []
+# TAG GUIDE: category:<menu> controls the organism menu; country:<name> controls Location.
+# keyword:<term> adds a search suggestion; diagnostic:<effect> adds a questionnaire option.
+# Keep family, genus, species, and subspecies as plain tags. Multiple tags are allowed.
+tags: ["category:scorpions","Buthidae","Isometrus","bilyi","country:Australia","keyword:scorpions","keyword:Unknown Risk","keyword:Buthidae","keyword:Isometrus","keyword:bilyi","diagnostic:Direct Cardiotoxin Effect","diagnostic:Effects on Red Blood Cells (potentially including haemolysis)"]
+image_sources: ["http://www.toxinology.com/images/scorpions/SCML1535.gif","http://www.toxinology.com/images/scorpions/SCML1535.gif"]
+section_names: ["Antivenom","Case Studies","Clinical Effects","Description","Diagnosis","Distribution","First Aid","Medical Treatment","References"]
+source_index: 472
+---
+
+## Summary
+
+### Dry Bite
+
+Unknown
+
+### Rate of Envenoming
+
+Unknown
+
+### Venomous
+
+Unknown Risk
+
+Unknown; there are a number of dangerous Buthid scorpions, but also others known to cause minimal effects only. Without clinical data it is unclear where this species fits within that spectrum.
+
+## Antivenom
+
+### Antivenom Therapy
+
+No antivenom available
+
+### Antivenom Dosage
+
+No antivenom available
+
+### Antivenom Reactions
+
+Not applicable
+
+### Adverse Antivenom Reaction Management
+
+Not applicable
+
+### Known Antivenoms
+#### NOTE: Order of antivenoms is not indicitive of preference.
+
+## Case Studies
+
+No data
+
+## Clinical Effects
+
+Unknown; most Buthid scorpions for which clinical case data is known do not cause major envenoming and are not a threat to life, but a few species can cause lethal envenoming. Because there is inadequate case data available for this species a prediction of prognosis is impractical. Therefore stings should be treated with great caution until case data is available and indicates minor envenoming only is likely.
+
+No information is available on the clinical effects of a sting by this scorpion. Keepers report the sting from Isometrus spp. are painful locally. As a Buthid, it is likely to cause at least local pain. Systemic envenoming should be considered a possibility, until such time as clinical data on stings becomes available. If systemic envenoming were to occur, it might be similar to known clinically significant Buthid scorpions, which can cause a catecholamine-storm like picture, with cardiotoxicity, hypertension, hypersecretion and pulmonary oedema.
+
+Because of the current lack of clinical data for this species, should a case of confirmed sting occur, even if effects were trivial, it is important that the case be published, including clear proof of positive identification of the scorpion involved.
+
+### Special Risk Groups
+#### Children
+
+Risk to children from local or systemic envenoming is similar in nature to the risk for adults, but a childs smaller body mass implies that the comparitive venom concentration will be higher, so more severe envenoming is likely, the increased risk being inversely proportional to the size of the child.
+
+#### Pregnancy
+
+Potential risk to foetus from systemic envenoming, similar to risk to mother
+
+#### Elderly
+
+The higher incidence of pre-existing diseases in the elderly and associated frailty place them at higher risk should envenoming occur. The nature and extent of increased risk will largely be determined by the nature and extent of pre-existing disease and by any medications used to treat such disease.
+
+### Specific Effects Relating to Body Systems or Venom Types
+#### Cardiotoxicity
+
+Unknown; possible given experience with medically important Buthid scorpions
+
+#### Coagulopathy
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### System Effects
+
+Unknown
+
+#### Local Effects
+
+Unknown; however, in general, Buthid scorpions cause locally painful stings
+
+#### Necrosis
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Myotoxicity
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Neurotoxic Paralysis
+
+#### Renal Damage
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Untreated Lethality
+
+Unknown but lethal potential cannot be excluded
+
+#### Venom Anticoagulants
+
+Unknown
+
+#### Venom Cardiotoxins
+
+Unknown
+
+#### Venom Haemorrhagins
+
+Unknown
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Venom Myotoxins
+
+Unknown
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Venom Necrotoxins
+
+Unknown
+
+#### Venom Nephrotoxins
+
+Unknown
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Venom Neurotoxins
+
+Unknown
+
+Unknown; unlikely based on experience with other Buthid scorpions
+
+#### Venom Other
+
+Unknown
+
+#### Venom Procoagulants
+
+Unknown
+
+#### Other
+
+Unknown
+
+## Description
+
+### Adult Length
+
+25 mm
+
+No data
+
+### Coloration & Markings
+
+Carapace and tergites are yellow heavily marked with black ( mainly blackish ) revealing a weak yellow pattern. Metasomal segments I to III are yellow, segment IV is reddish brown and segment V is black. Ventral surface is pale yellow. Pedipalp femur patella and manus are yellow with a black spot on fingers. Chelicerae yellow with a single small dark spot near the anterior margin. Legs are yellow.
+
+### Taxonomy Synonomy
+
+Isometrus ( Reddyanus ) bilyi, Kovarik, 2003.
+
+## Diagnosis
+
+Not well defined. Most likely limited to local pain ± local swelling, without significant systemic effects. See detailed clinical summary for more specific detail, if known.
+
+### Likely Effects
+- Direct Cardiotoxin Effect
+- Localised Effects at bite/string/contact location
+### Possible Effects
+- Effects on Red Blood Cells (potentially including haemolysis)
+- Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)
+- Effects on Platelets (increase, decrease, change in platelet aggregation)
+- Myotoxic (local or systemic muscle damage)
+- Excitatory Neurotoxicity
+- Dermatological Effects
+- Cardiovascular Effects
+- Respiratory Effects
+- Angio Oedema or Major Allergic Reaction
+- Other
+- Non-specific General System Effects
+- Renal Effects (primary or secondary)
+### Effects Unlikely to be observed
+- Abnormal Haemostasis and Bleeding
+- Paralytic Neurotoxicity
+- Primary Necrotoxicity at bite/sting/contact location
+- Venom Spit Ophthalmia
+- Anterior Pituitary Haemorrhage
+### Lab Results
+#### Absolute Lymphopenia
+
+Unknown
+
+#### aPaO2
+
+Unknown
+
+#### aPTT
+
+Unknown
+
+#### Creatine Kinase (CK)
+
+Unknown
+
+#### Creatinine
+
+Unknown
+
+#### FDP/XDP/D-dimer
+
+Most likely normal
+
+#### Fibrinogen
+
+Unknown
+
+#### Haemoglobin (Hb)
+
+Unknown
+
+#### Potassium (K)
+
+Most likely normal
+
+#### Platelets
+
+Unknown
+
+#### PT/INR
+
+Mostly normal
+
+#### Urea
+
+Unknown
+
+#### Whole Blood Clotting Time
+
+Unknown
+
+#### White Cell Count (WCC)
+
+Unknown
+
+## Distribution
+
+species map
+### Region
+
+Australia
+
+### Countries
+
+Australia
+
+Kuranda ( Far North Queensland ), Australia.
+
+## First Aid
+
+Keep victim still, apply pressure immobilisation bandage & splint, gently wash bite area, transport to medical care
+
+First aid for scorpion stings (in areas where no potentially dangerous species may be found)
+
+1. Reassure the victim. Despite sometimes intense local pain, usually lasting less than one hour, these scorpions are not able to cause major of lethal envenoming and most stings will settle rapidly.
+1. Do not apply a bandage or tourniquet, or cut, suck or incise the wound or apply electric shock. Neither the application of local heat or cold are proven as effective.
+1. If the victim develops general symptoms or the pain remains severe after one hour, seek medical advice.
+
+## Medical Treatment
+
+Stings by these scorpions are likely to cause only short lived local effects, such as pain, without systemic effects. Treatment is therefore reassurance and symptomatic, with analgesia only for severe and persistent pain, as short lived pain will likely resolve before analgesics can take effect. Update tetanus immune status. Be more cautious in young children, observing for several hours post-sting. No antivenom is available, or is required.
+
+Stings by these scorpions are likely to cause only short lived local effects, such as pain, without systemic effects. Treatment is therefore reassurance and symptomatic, with analgesia only for severe and persistent pain, as short lived pain will likely resolve before analgesics can take effect. Update tetanus immune status. Be more cautious in young children, observing for several hours post-sting. No antivenom is available, or is required. If the patient develops significant local or systemic effects, other than the expected local pain, re-evaluate and consider if the identity of the scorpion may be in error. Except for a few species of major medical importance, the effects of stings to humans by individual scorpion species is either unknown (most species) or poorly documented and therefore unexpected effects cannot be excluded for most "harmless" species.
+
+### Management in Detail
+#### Immediate Effects Management
+
+Symptomatic care only
+
+#### Approach to Management
+
+Most cases will be minor & not require admission.
+
+#### Follow Up
+
+Follow up cases with significant local or systemic envenoming
+
+#### Local Effects Management
+
+Clean wound
+
+#### Systemic Effects Management
+
+Symptomatic care only
+
+#### Cardiotoxin Effects Management
+
+No cardiotoxic effects likely
+
+#### Haematologic Effects Management
+
+Haematologic effects not likely
+
+#### Haematologic Other Effects Management
+
+Not applicable
+
+#### Important Laboratory Test
+
+Not applicable
+
+#### Myotoxic Effects Management
+
+Myotoxicity not likely
+
+#### Necrotoxin Effects Management
+
+Local necrosis unlikely
+
+#### Neurotoxic Excitatory Effects Management
+
+Excitatory neurotoxic effects not likely
+
+#### Other Neurotoxic Effects Management
+
+Not applicable
+
+#### Neurotoxic Paralytic Effects Management
+
+Paralytic effects not likely
+
+#### Other Issues in Treatment
+
+Not applicable
+
+#### Other Specific Effects Management
+
+Ensure tetanus immunisation
+
+#### Renal Effects Management
+
+Renal damage unlikely
+
+## References
+
+Sissom W.D. (1990) Systematics, Biogeography and Paleontology in The Biology of Scorpions. Ed. Polis G.A., Stanford University Press.
+
+Kovarík, F. (2003) A review of the genus Isometrus Ehrenberg, 1828 ( Scorpiones: Buthidae ) with descriptions of four new species from Asia and Australia. Euscorpius Occ. Pub. Scorpiology, No. 10, pp. 1-19.
+
+Status Notes
+
+No Data
+
+## Gallery and source captions
+
+### Image 1
+
+Source: http://www.toxinology.com/images/scorpions/SCML1535.gif
+
+species map
+
+### Image 2
+
+Source: http://www.toxinology.com/images/scorpions/SCML1535.gif
+
+species map
+
+## Migration provenance
+
+This content was extracted from the Australian catalogue in the legacy Toxinology.com application. It has not yet received post-migration medical or editorial review.

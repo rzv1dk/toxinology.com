@@ -1,0 +1,11 @@
+{
+  "organism": "cowtail-stingray-pastinachus-sephen",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00067.gif",
+    "http://www.toxinology.com/images/marine_life/MVML00067.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

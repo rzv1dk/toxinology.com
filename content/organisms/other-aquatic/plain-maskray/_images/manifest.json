@@ -1,0 +1,12 @@
+{
+  "organism": "plain-maskray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00004.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000041.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00004.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

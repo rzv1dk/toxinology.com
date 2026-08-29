@@ -1,0 +1,12 @@
+{
+  "organism": "southern-or-lesser-blue-ringed-octopus-spotted-octopus",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0459.gif",
+    "http://www.toxinology.com/images/marine_life/MIP04591.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0459.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

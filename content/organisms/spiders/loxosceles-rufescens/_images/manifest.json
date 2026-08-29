@@ -1,0 +1,13 @@
+{
+  "organism": "loxosceles-rufescens",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPP001581.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001582.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001583.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001584.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

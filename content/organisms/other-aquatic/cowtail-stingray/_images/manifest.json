@@ -1,0 +1,15 @@
+{
+  "organism": "cowtail-stingray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00027.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000271.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000272.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000273.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000274.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00027.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

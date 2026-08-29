@@ -1,0 +1,55 @@
+{
+  "id": "hapalochlaena-sp-b",
+  "title": "Hapalochlaena Sp. B",
+  "scientific_name": "Hapalochlaena Sp. B",
+  "aliases": [],
+  "topic": "organisms",
+  "subject": "other-aquatic",
+  "risk": "Unknown Risk",
+  "countries": [
+    "Australia"
+  ],
+  "keywords": [
+    "other-aquatic",
+    "Unknown Risk",
+    "Hapalochlaena",
+    "Sp. B"
+  ],
+  "image_source": "../assets/icons/icon-alt-water.png",
+  "source_url": "http://54.253.37.47/",
+  "source_accessed": "2026-08-29",
+  "review_status": "full-legacy-migration-unreviewed",
+  "family": [],
+  "genus": [
+    "Hapalochlaena"
+  ],
+  "species": [
+    "Sp. B"
+  ],
+  "subspecies": [],
+  "tags": [
+    "category:other-aquatic",
+    "Hapalochlaena",
+    "Sp. B",
+    "country:Australia",
+    "keyword:other-aquatic",
+    "keyword:Unknown Risk",
+    "keyword:Hapalochlaena",
+    "keyword:Sp. B",
+    "diagnostic:Direct Cardiotoxin Effect"
+  ],
+  "image_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0463.gif",
+    "http://www.toxinology.com/images/marine_life/MIML0463.gif"
+  ],
+  "section_names": [
+    "Case Studies",
+    "Diagnosis",
+    "Distribution",
+    "First Aid",
+    "References"
+  ],
+  "source_index": 525,
+  "content_markdown": "## Summary\n\n### Venomous\n\nUnknown Risk\n\n## Case Studies\n\nNo data\n\n## Diagnosis\n\n### Possible Effects\n- Direct Cardiotoxin Effect\n- Abnormal Haemostasis and Bleeding\n- Effects on Red Blood Cells (potentially including haemolysis)\n- Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)\n- Effects on Platelets (increase, decrease, change in platelet aggregation)\n- Myotoxic (local or systemic muscle damage)\n- Paralytic Neurotoxicity\n- Excitatory Neurotoxicity\n- Dermatological Effects\n- Localised Effects at bite/string/contact location\n- Primary Necrotoxicity at bite/sting/contact location\n- Cardiovascular Effects\n- Respiratory Effects\n- Angio Oedema or Major Allergic Reaction\n- Other\n- Non-specific General System Effects\n- Renal Effects (primary or secondary)\n### Effects Unlikely to be observed\n- Venom Spit Ophthalmia\n- Anterior Pituitary Haemorrhage\n\n## Distribution\n\nspecies map\n### Region\n\nAustralia\n\n### Countries\n\nAustralia\n\nAustralia - from Margaret River region ( Western Australia ) to Eyre Peninsula ( South Australia ).\n\n## First Aid\n\nFirst aid for Blue ringed octopus bites\n\n1. Due to the rapidity of onset of life threatening sequelae of envenoming by the blue ringed octopus, prompt and appropriate first aid will often be crucial in securing a favourable outcome for the patient.\n1. If the patient is still in the water, quickly move them to dry land.\n1. If the patient is aware of a bite having occurred prior to the onset of symptoms, then application of the Australian snakebite technique of first aid is appropriate (pressure immobilisation bandage and splint). Thus if the bite is on a limb, a broad bandage (even torn strips of clothing or pantyhose) should be applied over the bitten area at moderate pressure (as for a sprain; not so tight circulation is impaired), then extended to cover as much of the bitten limb as possible, including fingers or toes, going over the top of clothing rather than risking excessive limb movement by removing clothing. The bitten limb should then be immobilised as effectively as possible using an extemporised splint or sling.\n1. Providing the patient is not in respiratory distress, application of the bandage, as above, should be a priority.\n1. If there is any impairment of vital functions, such as problems with respiration, airway, circulation, heart function, these must be supported as a priority. In particular, for bites causing flaccid paralysis, including respiratory paralysis, both airway and respiration may be impaired, requiring urgent and prolonged treatment, which may include the mouth to mask (mouth to mouth) technique of expired air transfer. In significant bites by the blue ringed octopus, flaccid paralysis and respiratory paralysis may develop quickly, sometimes within 10-15 minutes of the bite. As aspiration of vomitus is a real risk, nurse the patient on their side, and pay careful attention to airway patency, which may be compromised by oropharyngeal paresis and vomitus. Providing there is adequate maintenance of respiration, cardiac arrhythmias or arrest are not likely, so ECM will only rarely be needed. If there has been significant delay between respiratory arrest and commencement of resuscitation, then full cardiopulmonary arrest is much more likely. Seek urgent medical attention.\n1. Do not use Tourniquets, cut, suck or scarify the wound or apply chemicals or electric shock.\n1. Avoid peroral intake, absolutely no alcohol. No sedatives outside hospital. If there will be considerable delay before reaching medical aid, measured in several hours to days, then give clear fluids by mouth to prevent dehydration.\n1. If the offending octopus has been killed it should be brought with the patient for identification.\n1. The victim should be transported as quickly and as passively as possible to the nearest place where they can be seen by a medically-trained person (health station, dispensary, clinic or hospital). The bitten limb must not be exercised as muscular contraction will promote systemic absorption of venom. If no motor vehicle or boat is available, the patient can be carried on a stretcher or hurdle, on the pillion or crossbar of a bicycle or on someone's back.\n\n## References\n\nSutherland S.K., Tibballs J. ( 2001 ) Australian Animal Toxins. The creatures, their toxins and care of the poisoned patient. Oxford Press.\n\nStatus Notes\n\nNo Data\n\n## Gallery and source captions\n\n### Image 1\n\nSource: http://www.toxinology.com/images/marine_life/MIML0463.gif\n\nspecies map\n\n### Image 2\n\nSource: http://www.toxinology.com/images/marine_life/MIML0463.gif\n\nspecies map\n\n## Migration provenance\n\nThis content was extracted from the Australian catalogue in the legacy Toxinology.com application. It has not yet received post-migration medical or editorial review.",
+  "source_file": "content/organisms/other-aquatic/hapalochlaena-sp-b/index.md"
+}

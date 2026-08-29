@@ -1,0 +1,12 @@
+{
+  "organism": "jumper-ant",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TIML0003.gif",
+    "http://www.toxinology.com/images/other_life/TIP00031.jpg",
+    "http://www.toxinology.com/images/other_life/TIML0003.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

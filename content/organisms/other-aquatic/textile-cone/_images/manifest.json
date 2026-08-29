@@ -1,0 +1,13 @@
+{
+  "organism": "textile-cone",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0226.gif",
+    "http://www.toxinology.com/images/marine_life/MIP02261.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP02262.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0226.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

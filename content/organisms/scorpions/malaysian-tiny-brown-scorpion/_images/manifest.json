@@ -1,0 +1,11 @@
+{
+  "organism": "malaysian-tiny-brown-scorpion",
+  "files": [
+    "placeholder-scorpion.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/scorpions/SCML0008.gif",
+    "http://www.toxinology.com/images/scorpions/SCML0008.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

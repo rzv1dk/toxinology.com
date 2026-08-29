@@ -1,0 +1,65 @@
+{
+  "id": "urodacus-manicatus",
+  "title": "Urodacus manicatus",
+  "scientific_name": "Urodacus manicatus",
+  "aliases": [],
+  "topic": "organisms",
+  "subject": "scorpions",
+  "risk": "Low Risk",
+  "countries": [
+    "Australia"
+  ],
+  "keywords": [
+    "scorpions",
+    "Low Risk",
+    "Scorpionidae",
+    "Urodacus",
+    "manicatus"
+  ],
+  "image_source": "../assets/icons/icon-alt-desert.png",
+  "source_url": "http://54.253.37.47/",
+  "source_accessed": "2026-08-29",
+  "review_status": "full-legacy-migration-unreviewed",
+  "family": [
+    "Scorpionidae"
+  ],
+  "genus": [
+    "Urodacus"
+  ],
+  "species": [
+    "manicatus"
+  ],
+  "subspecies": [],
+  "tags": [
+    "category:scorpions",
+    "Scorpionidae",
+    "Urodacus",
+    "manicatus",
+    "country:Australia",
+    "keyword:scorpions",
+    "keyword:Low Risk",
+    "keyword:Scorpionidae",
+    "keyword:Urodacus",
+    "keyword:manicatus",
+    "diagnostic:Localised Effects at bite/string/contact location",
+    "diagnostic:Effects on Red Blood Cells (potentially including haemolysis)"
+  ],
+  "image_sources": [
+    "http://www.toxinology.com/images/scorpions/SCML0011.gif",
+    "http://www.toxinology.com/images/scorpions/SCML0011.gif"
+  ],
+  "section_names": [
+    "Antivenom",
+    "Case Studies",
+    "Clinical Effects",
+    "Description",
+    "Diagnosis",
+    "Distribution",
+    "First Aid",
+    "Medical Treatment",
+    "References"
+  ],
+  "source_index": 430,
+  "content_markdown": "## Summary\n\n### Dry Bite\n\nUnknown\n\n### Rate of Envenoming\n\nUnknown but likely to be low\n\n### Venomous\n\nLow Risk\n\nMild envenoming only, not likely to prove lethal\n\n## Antivenom\n\n### Antivenom Therapy\n\nNo antivenom available\n\n### Antivenom Dosage\n\nNo antivenom available\n\n### Antivenom Reactions\n\nNot applicable\n\n### Adverse Antivenom Reaction Management\n\nNot applicable\n\n### Known Antivenoms\n#### NOTE: Order of antivenoms is not indicitive of preference.\n\n## Case Studies\n\nNo data\n\n## Clinical Effects\n\nFatal outcome very unlikely\n\nThese moderate to large Australian scorpions are infrequently reported as a cause of stings. In one prospective study (Isbister et al; 2003), none of 5 cases reported even significant local pain, let alone systemic effects, suggesting these scorpions are the least likely in Australia to cause problems for humans. However, both Southcott and Flecker report stings by Urodacus spp. causing moderate to severe local pain and in some cases associated local redness, swelling, prostration, and pyrexia, requiring 24 hours for recovery. White (pers. com.) has seen several Urodacus stings in sandy outback areas, all resulting in severe, but short lived local pain, without systemic effects.\n\n### Special Risk Groups\n#### Children\n\nNo information available\n\n#### Pregnancy\n\nUnknown\n\n#### Elderly\n\nNo information available\n\n### Specific Effects Relating to Body Systems or Venom Types\n#### Cardiotoxicity\n\nDoes not occur, based on current clinical evidence\n\n#### Coagulopathy\n\nDoes not occur, based on current clinical evidence\n\n#### System Effects\n\nGeneral systemic effects unlikely\n\n#### Local Effects\n\nLocal pain only\n\nThe bitten area is usually painful, but with no other local reaction, except minor swelling\n\n#### Necrosis\n\nDoes not occur, based on current clinical evidence\n\n#### Myotoxicity\n\nDoes not occur, based on current clinical evidence\n\n#### Neurotoxic Paralysis\n\n#### Renal Damage\n\nDoes not occur, based on current clinical evidence\n\n#### Untreated Lethality\n\nUnlikely to prove lethal\n\n#### Venom Anticoagulants\n\nUnknown\n\n#### Venom Cardiotoxins\n\nUnknown\n\n#### Venom Haemorrhagins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Myotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Necrotoxins\n\nUnknown\n\n#### Venom Nephrotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Neurotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Other\n\nUnknown\n\n#### Venom Procoagulants\n\nUnknown\n\n#### Other\n\nInsufficient clinical reports to know\n\n## Description\n\n### Adult Length\n\n45 mm\n\nNo data\n\n### Coloration & Markings\n\nCarapace and tergites are usually brown to dark brown with or without some darker brown variegated spotting. Metasomal segments are brown to dark brown ( occasionally more yellowish brown to reddish brown ). Pedipalps are brown to dark brown. Ventral surface and sternites are yellowish to yellowish brown, Legs are yellowish brown to reddish brown.\n\n### Taxonomy Synonomy\n\nIoctonus manicatus, Thorell, 1876.\nUrodacus novaehollandiae, Keyserling, 1885.\nUrodacus abruptus, Pocock, 1888; Pocock, 1893; Pocock, 1898; Kraepelin, 1899; Kraepelin, 1901; Takashima, 1945; Southcott, 1954; Smith, 1966.\nUrodacus keyserlingi, Pocock, 1891.\nUrodacus manicatus, Pocock, 1898; Kraepelin, 1908; Glauert, 1925; Glauert, 1963; Koch, 1977.\nUrodacus manicatus ( Thorell, 1876 ).\n\n## Diagnosis\n\nLocal pain\n\n### Likely Effects\n- Localised Effects at bite/string/contact location\n### Possible Effects\n- Effects on Red Blood Cells (potentially including haemolysis)\n- Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)\n- Effects on Platelets (increase, decrease, change in platelet aggregation)\n- Myotoxic (local or systemic muscle damage)\n- Excitatory Neurotoxicity\n- Dermatological Effects\n- Cardiovascular Effects\n- Respiratory Effects\n- Angio Oedema or Major Allergic Reaction\n- Other\n- Non-specific General System Effects\n- Renal Effects (primary or secondary)\n### Effects Unlikely to be observed\n- Direct Cardiotoxin Effect\n- Abnormal Haemostasis and Bleeding\n- Paralytic Neurotoxicity\n- Primary Necrotoxicity at bite/sting/contact location\n- Venom Spit Ophthalmia\n- Anterior Pituitary Haemorrhage\n### Lab Results\n#### Absolute Lymphopenia\n\nNormal\n\n#### aPaO2\n\nNormal\n\n#### aPTT\n\nNormal\n\n#### Creatine Kinase (CK)\n\nNormal\n\n#### Creatinine\n\nNormal\n\n#### FDP/XDP/D-dimer\n\nMost likely normal\n\n#### Fibrinogen\n\nNormal\n\n#### Haemoglobin (Hb)\n\nNormal\n\n#### Potassium (K)\n\nMost likely normal\n\n#### Platelets\n\nNormal\n\n#### PT/INR\n\nMostly normal\n\n#### Urea\n\nNormal\n\n#### Whole Blood Clotting Time\n\nMost likely normal\n\n#### White Cell Count (WCC)\n\nNormal\n\n## Distribution\n\nspecies map\n### Region\n\nAustralia\n\n### Countries\n\nAustralia\n\nSE Australia ( SE South Australia as far west as the Yorke Peninsula including Kangaroo Island, Victoria, SW, central and eastern New South Wales and extreme SE Queensland.\n\n## First Aid\n\nFirst aid for scorpion stings (in areas where no potentially dangerous species may be found)\n\n1. Reassure the victim. Despite sometimes intense local pain, usually lasting less than one hour, these scorpions are not able to cause major of lethal envenoming and most stings will settle rapidly.\n1. Do not apply a bandage or tourniquet, or cut, suck or incise the wound or apply electric shock. Neither the application of local heat or cold are proven as effective.\n1. If the victim develops general symptoms or the pain remains severe after one hour, seek medical advice.\n\n## Medical Treatment\n\nStings cause predominantly local effects of short duration, usually not requiring medical treatment. No antivenom is available or indicated.\n\n### Management in Detail\n#### Immediate Effects Management\n\nSymptomatic care only\n\n#### Approach to Management\n\nMost cases will be minor & not require admission.\n\n#### Follow Up\n\nNo follow up necessary\n\n#### Local Effects Management\n\nClean wound\n\n#### Systemic Effects Management\n\nSymptomatic care only\n\n#### Cardiotoxin Effects Management\n\nNo cardiotoxic effects likely\n\n#### Haematologic Effects Management\n\nHaematologic effects not likely\n\n#### Haematologic Other Effects Management\n\nNot applicable\n\n#### Important Laboratory Test\n\nNot applicable\n\n#### Myotoxic Effects Management\n\nMyotoxicity not likely\n\n#### Necrotoxin Effects Management\n\nLocal necrosis unlikely\n\n#### Neurotoxic Excitatory Effects Management\n\nExcitatory neurotoxic effects not likely\n\n#### Other Neurotoxic Effects Management\n\nNot applicable\n\n#### Neurotoxic Paralytic Effects Management\n\nParalytic effects not likely\n\n#### Other Issues in Treatment\n\nNone\n\n#### Other Specific Effects Management\n\nEnsure tetanus immunisation\n\n#### Renal Effects Management\n\nRenal damage unlikely\n\n## References\n\nKoch L.E. (1977) The taxonomy, geographic distribution and evolutionary radiation of Australo-Papuan scorpions. Rec. West Aust. Mus., Vol. 5(2), pp 83-367.\n\nSissom W.D. (1990) Systematics, Biogeography and Paleontology in The Biology of Scorpions. Ed. Polis G.A., Stanford University Press.\n\nFet V., Sissom W.D., Lowe G. and Braunwalder M.E. (2000) Catalog of the Scorpions of the World ( 1758-1998 ). The New York Entomology Society, New York.\n\nStatus Notes\n\nNo Data\n\n## Gallery and source captions\n\n### Image 1\n\nSource: http://www.toxinology.com/images/scorpions/SCML0011.gif\n\nspecies map\n\n### Image 2\n\nSource: http://www.toxinology.com/images/scorpions/SCML0011.gif\n\nspecies map\n\n## Migration provenance\n\nThis content was extracted from the Australian catalogue in the legacy Toxinology.com application. It has not yet received post-migration medical or editorial review.",
+  "source_file": "content/organisms/scorpions/urodacus-manicatus/index.md"
+}

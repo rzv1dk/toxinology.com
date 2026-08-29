@@ -1,0 +1,15 @@
+{
+  "organism": "macleay-s-smooth-water-snake",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0764.gif",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Colubridae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Enhydris.gif",
+    "http://www.toxinology.com/images/snakes/SNML0764.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

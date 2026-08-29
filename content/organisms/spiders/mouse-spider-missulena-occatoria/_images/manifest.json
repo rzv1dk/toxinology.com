@@ -1,0 +1,13 @@
+{
+  "organism": "mouse-spider-missulena-occatoria",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPP000791.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000792.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000793.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000794.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

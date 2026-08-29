@@ -1,0 +1,24 @@
+{
+  "organism": "subsp-scutatus-mainland-tiger-snake",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0517.gif",
+    "http://www.toxinology.com/images/snakes/SNP05171.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05172.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05173.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05174.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05177.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05178.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05177.jpg",
+    "http://www.toxinology.com/images/snakes/SNP05178.jpg",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Elapidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Notechis.gif",
+    "http://www.toxinology.com/images/snakes/SNML0517.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

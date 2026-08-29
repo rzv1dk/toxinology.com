@@ -1,0 +1,10 @@
+{
+  "organism": "white-tailed-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPP001921.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,17 @@
+{
+  "organism": "blotched-fantail-ray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00044.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000441.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000442.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000443.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000444.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000445.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000446.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00044.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

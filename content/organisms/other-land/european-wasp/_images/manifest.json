@@ -1,0 +1,10 @@
+{
+  "organism": "european-wasp",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TIP00041.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,10 @@
+{
+  "organism": "mouse-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPP000741.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,21 @@
+{
+  "name": "toxinology-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "import:source": "node scripts/import-source.mjs",
+    "merge:details": "node scripts/merge-full-details.mjs",
+    "placeholders:install": "node scripts/install-placeholders.mjs",
+    "normalize:content": "node scripts/normalize-content-format.mjs",
+    "tags:rebuild": "node scripts/rebuild-yaml-tags.mjs",
+    "export:bundles": "node scripts/export-organism-bundles.mjs",
+    "validate:complete": "node scripts/check.mjs && node scripts/build.mjs && node scripts/validate-build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

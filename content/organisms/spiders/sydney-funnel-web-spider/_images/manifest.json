@@ -1,0 +1,15 @@
+{
+  "organism": "sydney-funnel-web-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00001.gif",
+    "http://www.toxinology.com/images/spiders/SPP000011.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000012.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000013.jpg",
+    "http://www.toxinology.com/images/spiders/SPMG_Atrax.gif",
+    "http://www.toxinology.com/images/spiders/SPML00001.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

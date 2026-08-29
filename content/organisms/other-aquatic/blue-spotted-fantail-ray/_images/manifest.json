@@ -1,0 +1,17 @@
+{
+  "organism": "blue-spotted-fantail-ray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00043.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000431.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000432.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000433.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000434.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000435.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000436.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00043.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,20 @@
+{
+  "organism": "northern-death-adder",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0492.gif",
+    "http://www.toxinology.com/images/snakes/SNP04921.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04922.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04923.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04924.jpg",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Elapidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Acanthophis.gif",
+    "http://www.toxinology.com/images/snakes/SNML0492.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

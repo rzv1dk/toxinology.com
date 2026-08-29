@@ -1,0 +1,15 @@
+{
+  "organism": "bearded-dragon",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TVML0503.gif",
+    "http://www.toxinology.com/images/other_life/TVP05031.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05032.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05033.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05034.jpg",
+    "http://www.toxinology.com/images/other_life/TVML0503.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,15 @@
+{
+  "organism": "lace-monitor",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TVML0502.gif",
+    "http://www.toxinology.com/images/other_life/TVP05021.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05022.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05023.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05024.jpg",
+    "http://www.toxinology.com/images/other_life/TVML0502.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

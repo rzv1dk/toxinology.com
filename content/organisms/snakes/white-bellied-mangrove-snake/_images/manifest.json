@@ -1,0 +1,16 @@
+{
+  "organism": "white-bellied-mangrove-snake",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0768.gif",
+    "http://www.toxinology.com/images/snakes/SNP07681.jpg",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Colubridae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Fordonia.gif",
+    "http://www.toxinology.com/images/snakes/SNML0768.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

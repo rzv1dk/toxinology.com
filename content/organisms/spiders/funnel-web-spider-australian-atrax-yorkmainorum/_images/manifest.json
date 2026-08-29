@@ -1,0 +1,12 @@
+{
+  "organism": "funnel-web-spider-australian-atrax-yorkmainorum",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00003.gif",
+    "http://www.toxinology.com/images/spiders/SPMG_Atrax.gif",
+    "http://www.toxinology.com/images/spiders/SPML00003.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,24 @@
+{
+  "organism": "common-death-adder",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0491.gif",
+    "http://www.toxinology.com/images/snakes/SNP04911.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04912.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04913.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04914.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04917.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04918.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04917.jpg",
+    "http://www.toxinology.com/images/snakes/SNP04918.jpg",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Elapidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Acanthophis.gif",
+    "http://www.toxinology.com/images/snakes/SNML0491.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

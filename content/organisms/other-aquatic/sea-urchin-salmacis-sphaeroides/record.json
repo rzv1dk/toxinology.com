@@ -1,0 +1,72 @@
+{
+  "id": "sea-urchin-salmacis-sphaeroides",
+  "title": "Sea Urchin",
+  "scientific_name": "Salmacis sphaeroides",
+  "aliases": [],
+  "topic": "organisms",
+  "subject": "other-aquatic",
+  "risk": "Unknown Risk",
+  "countries": [
+    "Australia",
+    "Brunei",
+    "China",
+    "Indonesia",
+    "Malaysia",
+    "Philippines",
+    "Taiwan"
+  ],
+  "keywords": [
+    "other-aquatic",
+    "Unknown Risk",
+    "Temnopleuridae",
+    "Salmacis",
+    "sphaeroides"
+  ],
+  "image_source": "../assets/icons/icon-alt-water.png",
+  "source_url": "http://54.253.37.47/",
+  "source_accessed": "2026-08-29",
+  "review_status": "full-legacy-migration-unreviewed",
+  "family": [
+    "Temnopleuridae"
+  ],
+  "genus": [
+    "Salmacis"
+  ],
+  "species": [
+    "sphaeroides"
+  ],
+  "subspecies": [],
+  "tags": [
+    "category:other-aquatic",
+    "Temnopleuridae",
+    "Salmacis",
+    "sphaeroides",
+    "country:Australia",
+    "country:Brunei",
+    "country:China",
+    "country:Indonesia",
+    "country:Malaysia",
+    "country:Philippines",
+    "country:Taiwan",
+    "keyword:other-aquatic",
+    "keyword:Unknown Risk",
+    "keyword:Temnopleuridae",
+    "keyword:Salmacis",
+    "keyword:sphaeroides",
+    "diagnostic:Direct Cardiotoxin Effect"
+  ],
+  "image_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0454.gif",
+    "http://www.toxinology.com/images/marine_life/MIML0454.gif"
+  ],
+  "section_names": [
+    "Case Studies",
+    "Diagnosis",
+    "Distribution",
+    "First Aid",
+    "Medical Treatment"
+  ],
+  "source_index": 545,
+  "content_markdown": "## Summary\n\n### Venomous\n\nUnknown Risk\n\n## Case Studies\n\nNo data\n\n## Diagnosis\n\n### Possible Effects\n- Direct Cardiotoxin Effect\n- Abnormal Haemostasis and Bleeding\n- Effects on Red Blood Cells (potentially including haemolysis)\n- Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)\n- Effects on Platelets (increase, decrease, change in platelet aggregation)\n- Myotoxic (local or systemic muscle damage)\n- Paralytic Neurotoxicity\n- Excitatory Neurotoxicity\n- Dermatological Effects\n- Localised Effects at bite/string/contact location\n- Primary Necrotoxicity at bite/sting/contact location\n- Cardiovascular Effects\n- Respiratory Effects\n- Angio Oedema or Major Allergic Reaction\n- Other\n- Non-specific General System Effects\n- Renal Effects (primary or secondary)\n### Effects Unlikely to be observed\n- Venom Spit Ophthalmia\n- Anterior Pituitary Haemorrhage\n\n## Distribution\n\nspecies map\n### Region\n\nUnspecified\n\n### Countries\n\nAustralia, Brunei, China, Indonesia, Malaysia, Philippines, Taiwan\n\nWest Pacific from southern China to northern Australia.\n\n## First Aid\n\nFirst aid for Sea urchin stings\n\n1. The victim should immediately leave the water.\n1. Any broken spines should be removed and any sting spines (pedicellariae) attached to the skin should be removed using forceps, if available.\n1. The wound should not be rubbed, or spines crushed as this may worsen the local effects of the sting. Do not apply a pressure bandage, tourniquet or cut or suck the wound.\n1. The use of immersion in hot water is controversial. Some authorities suggest that immersing the stung limb in hot water may reduce pain. Others suggest it is useless. It is potentially hazardous, if used incorrectly, as it may cause burn injuries. If used, immerse the opposite limb to that stung in water which is hot, but bearable with prolonged contact. It should not be so hot as to cause pain. Then immerse the stung limb as far as necessary to include the sting area. Keep both limbs in the water for 15-20 minutes, providing there is relief of pain. If there is no relief of pain in this time, abandon the immersion. If pain has subsided, it may return on removal from the water, in which case, reimmerse for a further 15-20 minutes. Repeat this process up to 4 times. If after 1-2 hours, the pain is still severe on removal from hot water, then other forms of pain relief may be required, but these will require medical intervention.\n1. The wound may be gently cleaned with soapy water.\n\n## Medical Treatment\n\nMIE-00/SaSph\n\nNo data\n\n### Management in Detail\n#### Immediate Effects Management\n\nNo Data\n\n#### Approach to Management\n\nNo Data\n\n#### Follow Up\n\nNo Data\n\n#### Local Effects Management\n\nNo Data\n\n#### Systemic Effects Management\n\nNo Data\n\n#### Cardiotoxin Effects Management\n\nNo Data\n\n#### Haematologic Effects Management\n\nNo Data\n\n#### Haematologic Other Effects Management\n\nNo Data\n\n#### Important Laboratory Test\n\nNo Data\n\n#### Myotoxic Effects Management\n\nNo Data\n\n#### Necrotoxin Effects Management\n\nNo Data\n\n#### Neurotoxic Excitatory Effects Management\n\nNo Data\n\n#### Other Neurotoxic Effects Management\n\nNo Data\n\n#### Neurotoxic Paralytic Effects Management\n\nNo Data\n\n#### Other Issues in Treatment\n\nNo Data\n\n#### Other Specific Effects Management\n\nNo Data\n\n#### Renal Effects Management\n\nNo Data\n\n## Gallery and source captions\n\n### Image 1\n\nSource: http://www.toxinology.com/images/marine_life/MIML0454.gif\n\nspecies map\n\n### Image 2\n\nSource: http://www.toxinology.com/images/marine_life/MIML0454.gif\n\nspecies map\n\n## Migration provenance\n\nThis content was extracted from the Australian catalogue in the legacy Toxinology.com application. It has not yet received post-migration medical or editorial review.",
+  "source_file": "content/organisms/other-aquatic/sea-urchin-salmacis-sphaeroides/index.md"
+}

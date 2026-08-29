@@ -1,0 +1,14 @@
+{
+  "organism": "irukandji",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0405.gif",
+    "http://www.toxinology.com/images/marine_life/MIP04051.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP04052.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP04057.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0405.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

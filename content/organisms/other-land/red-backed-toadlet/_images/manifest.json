@@ -1,0 +1,12 @@
+{
+  "organism": "red-backed-toadlet",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TVML0015.gif",
+    "http://www.toxinology.com/images/other_life/TVMG_Pseudophryne.gif",
+    "http://www.toxinology.com/images/other_life/TVML0015.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

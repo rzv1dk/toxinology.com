@@ -1,0 +1,11 @@
+{
+  "organism": "liocheles-karschii",
+  "files": [
+    "placeholder-scorpion.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/scorpions/SCML0010.gif",
+    "http://www.toxinology.com/images/scorpions/SCML0010.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

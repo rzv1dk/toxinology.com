@@ -1,0 +1,19 @@
+{
+  "organism": "woma-python",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML2702.gif",
+    "http://www.toxinology.com/images/snakes/SNP27021.jpg",
+    "http://www.toxinology.com/images/snakes/SNP27022.jpg",
+    "http://www.toxinology.com/images/snakes/SNP27023.jpg",
+    "http://www.toxinology.com/images/snakes/SNP27024.jpg",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Boidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Aspidites.gif",
+    "http://www.toxinology.com/images/snakes/SNML2702.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

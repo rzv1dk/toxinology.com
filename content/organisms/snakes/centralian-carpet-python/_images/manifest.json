@@ -1,0 +1,16 @@
+{
+  "organism": "centralian-carpet-python",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML2715.gif",
+    "http://www.toxinology.com/images/snakes/SNP27151.jpg",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Boidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Morelia.gif",
+    "http://www.toxinology.com/images/snakes/SNML2715.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

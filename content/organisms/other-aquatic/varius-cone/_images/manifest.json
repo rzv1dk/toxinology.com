@@ -1,0 +1,12 @@
+{
+  "organism": "varius-cone",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0236.gif",
+    "http://www.toxinology.com/images/marine_life/MIP02361.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0236.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,13 @@
+{
+  "organism": "conus-chenui",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0051.gif",
+    "http://www.toxinology.com/images/marine_life/MIP00511.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP00512.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0051.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

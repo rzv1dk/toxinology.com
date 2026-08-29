@@ -1,0 +1,15 @@
+{
+  "organism": "loxosceles-laeta",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00136.gif",
+    "http://www.toxinology.com/images/spiders/SPP001361.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001362.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001363.jpg",
+    "http://www.toxinology.com/images/spiders/SPP001364.jpg",
+    "http://www.toxinology.com/images/spiders/SPML00136.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,14 @@
+{
+  "organism": "toowoomba-funnel-web-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00009.gif",
+    "http://www.toxinology.com/images/spiders/SPP000091.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000092.jpg",
+    "http://www.toxinology.com/images/spiders/SPMG_Hadronyche.gif",
+    "http://www.toxinology.com/images/spiders/SPML00009.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

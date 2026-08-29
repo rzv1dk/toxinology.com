@@ -1,0 +1,8 @@
+{
+  "organism": "mouse-spider-missulena-dipsaca",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

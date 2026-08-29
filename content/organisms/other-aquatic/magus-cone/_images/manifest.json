@@ -1,0 +1,13 @@
+{
+  "organism": "magus-cone",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0140.gif",
+    "http://www.toxinology.com/images/marine_life/MIP01401.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP01402.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0140.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

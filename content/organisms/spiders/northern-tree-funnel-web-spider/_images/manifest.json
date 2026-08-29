@@ -1,0 +1,16 @@
+{
+  "organism": "northern-tree-funnel-web-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00008.gif",
+    "http://www.toxinology.com/images/spiders/SPP000081.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000082.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000083.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000084.jpg",
+    "http://www.toxinology.com/images/spiders/SPMG_Hadronyche.gif",
+    "http://www.toxinology.com/images/spiders/SPML00008.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,11 @@
+{
+  "organism": "australian-paralysis-tick-ixodes-cornuatus",
+  "files": [
+    "placeholder-other-land.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/other_life/TIML0012.gif",
+    "http://www.toxinology.com/images/other_life/TIML0012.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

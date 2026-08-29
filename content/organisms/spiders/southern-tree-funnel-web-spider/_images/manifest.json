@@ -1,0 +1,18 @@
+{
+  "organism": "southern-tree-funnel-web-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00005.gif",
+    "http://www.toxinology.com/images/spiders/SPP000051.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000052.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000053.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000054.jpg",
+    "http://www.toxinology.com/images/spiders/SPP00057.jpg",
+    "http://www.toxinology.com/images/spiders/SPP00057.jpg",
+    "http://www.toxinology.com/images/spiders/SPMG_Hadronyche.gif",
+    "http://www.toxinology.com/images/spiders/SPML00005.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

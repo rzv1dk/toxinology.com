@@ -1,0 +1,15 @@
+{
+  "organism": "blue-mountains-funnel-web-spider",
+  "files": [
+    "placeholder-spider.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/spiders/SPML00015.gif",
+    "http://www.toxinology.com/images/spiders/SPP000151.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000152.jpg",
+    "http://www.toxinology.com/images/spiders/SPP000153.jpg",
+    "http://www.toxinology.com/images/spiders/SPMG_Hadronyche.gif",
+    "http://www.toxinology.com/images/spiders/SPML00015.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

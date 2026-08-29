@@ -1,0 +1,6 @@
+public/
+.public-build/
+.public-previous/
+.DS_Store
+node_modules/
+.wrangler/

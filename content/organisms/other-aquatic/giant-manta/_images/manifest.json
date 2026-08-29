@@ -1,0 +1,14 @@
+{
+  "organism": "giant-manta",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVP005721.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005722.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005723.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005724.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005725.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

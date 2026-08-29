@@ -1,0 +1,71 @@
+{
+  "id": "bearded-dragon",
+  "title": "Bearded Dragon",
+  "scientific_name": "Pogona barbata",
+  "aliases": [
+    "Jew Lizard"
+  ],
+  "topic": "organisms",
+  "subject": "other-land",
+  "risk": "No Risk",
+  "countries": [
+    "Australia"
+  ],
+  "keywords": [
+    "other-land",
+    "No Risk",
+    "Agamidae",
+    "Pogona",
+    "barbata"
+  ],
+  "image_source": "http://www.toxinology.com/images/other_life/TVP05031.jpg",
+  "source_url": "http://54.253.37.47/",
+  "source_accessed": "2026-08-29",
+  "review_status": "full-legacy-migration-unreviewed",
+  "family": [
+    "Agamidae"
+  ],
+  "genus": [
+    "Pogona"
+  ],
+  "species": [
+    "barbata"
+  ],
+  "subspecies": [],
+  "tags": [
+    "category:other-land",
+    "Agamidae",
+    "Pogona",
+    "barbata",
+    "country:Australia",
+    "keyword:other-land",
+    "keyword:No Risk",
+    "keyword:Agamidae",
+    "keyword:Pogona",
+    "keyword:barbata",
+    "diagnostic:Direct Cardiotoxin Effect"
+  ],
+  "image_sources": [
+    "http://www.toxinology.com/images/other_life/TVML0503.gif",
+    "http://www.toxinology.com/images/other_life/TVP05031.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05032.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05033.jpg",
+    "http://www.toxinology.com/images/other_life/TVP05034.jpg",
+    "http://www.toxinology.com/images/other_life/TVML0503.gif"
+  ],
+  "section_names": [
+    "Antitoxin",
+    "Case Studies",
+    "Clinical Effects",
+    "Description",
+    "Diagnosis",
+    "Distribution",
+    "First Aid",
+    "Medical Treatment",
+    "References",
+    "Toxin"
+  ],
+  "source_index": 504,
+  "content_markdown": "## Summary\n\n### Dry Bite\n\nUnknown, likely to be very high\n\n### Other\n\nNo Risk\n\nNot considered dangerous\n\n### Rate of Envenoming\n\nUnknown but likely to be very low\n\n## Antitoxin\n\nAntivenom Therapy\n\nNo antivenom available\n\nAntivenom Dosage\n\nNo antivenom available\n\nAntivenom Reactions\n\nNot applicable\n\nAdverse Antivenom Reaction Management\n\nNot applicable\n\nKnown Antivenoms\nNOTE: Order of antivenoms is not indicitive of preference.\n\n## Case Studies\n\nNo data\n\n## Clinical Effects\n\nA fatal outcome resulting from bites does not appear possible, and in most cases the injury will be mechanical, but may occasionally be severe. Secondary infection, which can occur after even minor bites, can also occasionally be severe.\n\nThis dragon lizard is considered to be non-venomous, although its oral secretions contain products that have been found to resemble toxins, and bites are unlikely to cause medically significant envenoming (see also \"Oral products of lizards - cautionary note\" in the Overview Pages). There is a considerable amount of anecdotal experience with bites by these lizards and no indication significant systemic effects occur. Indeed, the major problems with bites is mechanical injury from multiple sharp teeth, that can be expected to cause significant pain. It is hard to determine if the oral products contribute to the pain. In addition, bites can develop secondary infection that can, on occasion, be quite severe.\n\n### Special Risk Groups\n#### Children\n\nNo information.\n\n#### Pregnancy\n\nNo information. Unlikely to be a problem.\n\n#### Elderly\n\nNo information.\n\n### Specific Effects Relating to Body Systems or Venom Types\n#### Cardiotoxicity\n\nDoes not occur, based on current clinical evidence\n\n#### Coagulopathy\n\nDoes not occur, based on current clinical evidence\n\n#### System Effects\n\nDoes not occur, based on current clinical evidence\n\n#### Local Effects\n\nLocal effects are largely limited to mechanical injury from the bite, which is usually minor, plus secondary infection in some cases, potentially severe. It is unclear if oral products have any significant role in the local symptoms, though may contribute to local pain.\n\n#### Necrosis\n\nDoes not occur, based on current clinical evidence\n\n#### Myotoxicity\n\nDoes not occur, based on current clinical evidence\n\n#### Neurotoxic Paralysis\n\n#### Renal Damage\n\nDoes not occur, based on current clinical evidence\n\n#### Untreated Lethality\n\nNo lethal potential in humans\n\n#### Venom Anticoagulants\n\nUnknown\n\n#### Venom Cardiotoxins\n\nUnknown\n\n#### Venom Haemorrhagins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Myotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Necrotoxins\n\nUnknown\n\n#### Venom Nephrotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Neurotoxins\n\nUnknown\n\nDoes not occur, based on current clinical evidence\n\n#### Venom Other\n\nUnknown\n\n#### Venom Procoagulants\n\nUnknown\n\n#### Other\n\nDoes not occur, based on current clinical evidence\n\n## Description\n\n### Adult Length\n\n0.40 m\n\nNo data\n\n### Coloration & Markings\n\nColour variable from pale gray to fawn or brown, reddish-brown or almost black above. Series of pale oblong blotches in two longitudinal series, one either side of the mid-dorsal line. Usually a dark postocular stripe with whitish throat and tail often banded.\n\n### Breeding\n\nOviparous.\n\n### Habits\n\nOften seen during the day perched on fallen timber, stumps, fence posts or roadside verges. Regularly encountered basking on roads. Mature males have been found to display a level of territoriality.\n\nLethality\n\nNot lethal but can inflict a painful bite.\n\n### Prey\n\nInsects, flowers and soft herbs.\n\n### Taxonomy Synonomy\n\nAmphibolorus barbata, Badham, 1976\nPogona barbata, Storr, 1982\nPogona barbata, Wells and Wellington, 1985\nPogona barbata, Cogger, 1992\n\n## Diagnosis\n\nLocal pain and mechanical tissue injury, without systemic effects.\n\n### Possible Effects\n- Direct Cardiotoxin Effect\n- Abnormal Haemostasis and Bleeding\n- Effects on Red Blood Cells (potentially including haemolysis)\n- Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)\n- Effects on Platelets (increase, decrease, change in platelet aggregation)\n- Myotoxic (local or systemic muscle damage)\n- Paralytic Neurotoxicity\n- Excitatory Neurotoxicity\n- Dermatological Effects\n- Localised Effects at bite/string/contact location\n- Primary Necrotoxicity at bite/sting/contact location\n- Cardiovascular Effects\n- Respiratory Effects\n- Angio Oedema or Major Allergic Reaction\n- Other\n- Non-specific General System Effects\n- Renal Effects (primary or secondary)\n### Effects Unlikely to be observed\n- Venom Spit Ophthalmia\n- Anterior Pituitary Haemorrhage\n### Lab Results\n#### Absolute Lymphopenia\n\nMost likely normal\n\n#### aPaO2\n\nMost likely normal\n\n#### aPTT\n\nMostly normal\n\n#### Creatine Kinase (CK)\n\nMost likely normal\n\n#### Creatinine\n\nMost likely normal\n\n#### FDP/XDP/D-dimer\n\nMost likely normal\n\n#### Fibrinogen\n\nMost likely normal\n\n#### Haemoglobin (Hb)\n\nMost likely normal\n\n#### Potassium (K)\n\nMost likely normal\n\n#### Platelets\n\nMost likely normal\n\n#### PT/INR\n\nMostly normal\n\n#### Urea\n\nMost likely normal\n\n#### Whole Blood Clotting Time\n\nMost likely normal\n\n#### White Cell Count (WCC)\n\nMost likely normal\n\n## Distribution\n\nspecies map\n### Region\n\nAustralia\n\n### Countries\n\nAustralia\n\nEastern and south-eastern Australia, excluding Cape York Peninsula, Queensland and Tasmania.\n\n### Habitat\n\nSemi-arboreal.\n\n## First Aid\n\nFirst aid for bites from lizards, other than helodermatid lizards (such as gila monster & beaded lizard).\n\n1. Remove the patient from continued exposure to the lizard.\n1. If the lizard is still attached to the patient (ie still biting) then carefully prize the jaws open. Do not pull the lizard off as this may increase the extent of skin injury as some of these lizards have very sharp teeth that may lacerate the skin.\n1. Note the physical characteristics of the lizard so that, if necessary, it can be described to health care workers. If you have a camera, photograph the lizard.\n1. Clean the wound with antiseptic, if available, otherwise use clean, preferably sterile water.\n1. If the wound is deep, or there is extensive damage, or if significant pain persists after 30 minutes, seek medical care.\n1. Tetanus infection is possible with any bite wound. If the patient does not have current tetanus immunisation, seek medical care.\n1. Secondary infection is possible with any bite wound. If the wound initially appears minor, but over the next few days becomes red, tender to touch, more painful, swollen, or develops a discharge, secondary infection may have developed. In this case seek urgent medical care.\n1. Systemic (general) effects from oral products of these animals are not expected. If the patient develops any systemic (general) symptoms, such as headache, vomiting, fever, dizziness, weakness, difficulty breathing, or any other general symptom, seek urgent medical care. If breathing is impaired, support using available methods, including mouth-to-mouth breathing if nothing else is available. It is emphasised that such systemic effects are not expected and not reported and this advice is given for completeness, not in the expectation it is likely to be required.\n\n## Medical Treatment\n\nBites cause mechanical injury and sometimes secondary infection, with oral products playing, at most, a minor role, with no systemic effects. Therefore treatment is focussed on good wound care, including cleaning the wound, prevention of secondary infection, and ensuring tetanus immunisation is up to date.\n\n### Management in Detail\n#### Immediate Effects Management\n\nSymptomatic care only\n\n#### Approach to Management\n\nMost cases will be minor & not require admission.\n\n#### Follow Up\n\nFollow up cases with significant local effects\n\n#### Local Effects Management\n\nClean wound\n\n#### Systemic Effects Management\n\nSymptomatic care only\n\n#### Cardiotoxin Effects Management\n\nNo cardiotoxic effects likely\n\n#### Haematologic Effects Management\n\nHaematologic effects not likely\n\n#### Haematologic Other Effects Management\n\nNot applicable\n\n#### Important Laboratory Test\n\nNot applicable\n\n#### Myotoxic Effects Management\n\nMyotoxicity not likely\n\n#### Necrotoxin Effects Management\n\nLocal necrosis unlikely\n\n#### Neurotoxic Excitatory Effects Management\n\nExcitatory neurotoxic effects not likely\n\n#### Other Neurotoxic Effects Management\n\nNot applicable\n\n#### Neurotoxic Paralytic Effects Management\n\nMajor neurotoxic effects not likely\n\n#### Other Issues in Treatment\n\nPossibility of secondary infection.\n\n#### Other Specific Effects Management\n\nEnsure tetanus immunisation\n\n#### Renal Effects Management\n\nRenal damage unlikely\n\n## References\n\nCogger H.G. (1996) Reptiles and Amphibians of Australia. Reed Books, Victoria, Australia.\n\nStatus Notes\n\nComplete\n\n## Toxin\n\nVenom Components\nSequenced from the mandibular and maxillary gland of Pogona barbata. Fry et al. (2006) (Ref : R001203). Prior to this findings Crotamine had only previously been identified from rattlesnake venoms (Crotalus).\nMyotoxins\n\nCrotamine, Fry et al. (2006) (Ref : R001203): 42 AA toxin cross-linked protein with three disulfide bridges which has been shown to modify voltage-sensitive Na+ channels and exhibits analgesic activity and can be myonecrotic.\n\nOther Studies\n\nPogona barbata found to have both incipient mandibular and maxillary glands characteristic of an ancestral venom system in reptiles. These glands were found to contain Crotamine. Fry et al (2006) (Ref : R001203).\n\n## Gallery and source captions\n\n### Image 1\n\nSource: http://www.toxinology.com/images/other_life/TVML0503.gif\n\nspecies map\n\n### Image 2\n\nSource: http://www.toxinology.com/images/other_life/TVP05031.jpg\n\nPogona barbata ( Bearded Dragon ) [ Original photo copyright © Dr Julian White ]\n\n### Image 3\n\nSource: http://www.toxinology.com/images/other_life/TVP05032.jpg\n\nPogona barbata ( Bearded Dragon ) [ Original photo copyright © Dr Julian White ]\n\n### Image 4\n\nSource: http://www.toxinology.com/images/other_life/TVP05033.jpg\n\nPogona barbata ( Bearded Dragon ) [ Original photo copyright © Dr Julian White ]\n\n### Image 5\n\nSource: http://www.toxinology.com/images/other_life/TVP05034.jpg\n\nPogona barbata ( Bearded Dragon ) [ Original photo copyright © Dr Julian White ]\n\n### Image 6\n\nSource: http://www.toxinology.com/images/other_life/TVML0503.gif\n\nspecies map\n\n## Migration provenance\n\nThis content was extracted from the Australian catalogue in the legacy Toxinology.com application. It has not yet received post-migration medical or editorial review.",
+  "source_file": "content/organisms/other-land/bearded-dragon/index.md"
+}

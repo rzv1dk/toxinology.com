@@ -1,0 +1,17 @@
+{
+  "organism": "pelagic-stingray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00031.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000311.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000312.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000313.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000314.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000315.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000316.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00031.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,14 @@
+{
+  "organism": "banded-eagle-ray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVP005781.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005782.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005783.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005784.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP005785.jpg"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

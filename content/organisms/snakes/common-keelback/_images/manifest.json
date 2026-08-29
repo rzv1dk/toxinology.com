@@ -1,0 +1,16 @@
+{
+  "organism": "common-keelback",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0789.gif",
+    "http://www.toxinology.com/images/snakes/SNP07891.jpg",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Colubridae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Tropidonophis.gif",
+    "http://www.toxinology.com/images/snakes/SNML0789.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

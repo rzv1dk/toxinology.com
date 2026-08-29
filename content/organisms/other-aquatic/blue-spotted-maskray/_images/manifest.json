@@ -1,0 +1,16 @@
+{
+  "organism": "blue-spotted-maskray",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MVML00017.gif",
+    "http://www.toxinology.com/images/marine_life/MVP000171.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000172.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000173.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000174.jpg",
+    "http://www.toxinology.com/images/marine_life/MVP000175.jpg",
+    "http://www.toxinology.com/images/marine_life/MVML00017.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

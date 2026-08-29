@@ -1,0 +1,17 @@
+{
+  "organism": "eastern-small-blotched-python",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML2704.gif",
+    "http://www.toxinology.com/images/snakes/SNP27041.jpg",
+    "http://www.toxinology.com/images/snakes/SNP27042.jpg",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Boidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Antaresia.gif",
+    "http://www.toxinology.com/images/snakes/SNML2704.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,13 @@
+{
+  "organism": "feathered-cone",
+  "files": [
+    "placeholder-other-aquatic.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/marine_life/MIML0175.gif",
+    "http://www.toxinology.com/images/marine_life/MIP01751.jpg",
+    "http://www.toxinology.com/images/marine_life/MIP01752.jpg",
+    "http://www.toxinology.com/images/marine_life/MIML0175.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

@@ -1,0 +1,16 @@
+{
+  "organism": "western-brown-snake-pseudonaja-mengdeni",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML2789.gif",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Elapidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Pseudonaja.gif",
+    "http://www.toxinology.com/images/snakes/SNML2789.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}

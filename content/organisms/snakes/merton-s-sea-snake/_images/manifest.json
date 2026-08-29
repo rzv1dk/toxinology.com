@@ -1,0 +1,16 @@
+{
+  "organism": "merton-s-sea-snake",
+  "files": [
+    "placeholder-snake.png"
+  ],
+  "legacy_sources": [
+    "http://www.toxinology.com/images/snakes/SNML0560.gif",
+    "../assets/diagrams/head-scales-side.png",
+    "../assets/diagrams/scales-midbody.jpeg",
+    "../assets/diagrams/body-scales.jpeg",
+    "http://www.toxinology.com/images/snakes/SNMF_Hydrophiidae.gif",
+    "http://www.toxinology.com/images/snakes/SNMG_Parahydrophis.gif",
+    "http://www.toxinology.com/images/snakes/SNML0560.gif"
+  ],
+  "note": "Every supported image file in this folder is copied and displayed automatically on the organism page."
+}
