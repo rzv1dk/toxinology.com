@@ -1,4 +1,5 @@
 import { cp, mkdir, readFile, readdir, rename, rm, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { ROOT, escapeHtml, loadRecords, markdownToHtml, slugify } from "./content.mjs";
 
@@ -10,6 +11,10 @@ const records = (await loadRecords()).sort((a, b) => (a.data.source_index ?? Num
 await rm(OUTPUT, { recursive: true, force: true });
 await mkdir(OUTPUT, { recursive: true });
 await cp(STYLE, OUTPUT, { recursive: true });
+const siteCssSource = await readFile(path.join(STYLE, "assets", "site.css"), "utf8");
+const siteCssHash = createHash("sha256").update(siteCssSource).digest("hex").slice(0, 12);
+const siteCssFilename = `site.${siteCssHash}.css`;
+await writeFile(path.join(OUTPUT, "assets", siteCssFilename), siteCssSource);
 
 const strip = text => text.replace(/[#*`\[\]()]/g, " ").replace(/\s+/g, " ").trim();
 const IMAGE_FILE = /\.(?:avif|gif|jpe?g|png|svg|webp)$/i;
@@ -145,11 +150,8 @@ const home = shell({
   <script type="application/json" id="catalogue-data">${JSON.stringify(index).replace(/</g, "\\u003c")}</script>
   <script type="module" src="/assets/site.js"></script>`
 });
-const [publishedCssSource, publishedJsSource] = await Promise.all([
-  readFile(path.join(STYLE, "assets", "site.css"), "utf8"),
-  readFile(path.join(STYLE, "assets", "site.js"), "utf8")
-]);
-const publishedCss = publishedCssSource
+const publishedJsSource = await readFile(path.join(STYLE, "assets", "site.js"), "utf8");
+const publishedCss = siteCssSource
   .replaceAll('url("legacy-icons/', 'url("/assets/legacy-icons/')
   .replaceAll('url("fonts/', 'url("/assets/fonts/');
 const publishedHome = home
@@ -221,7 +223,7 @@ for (const record of records) {
     title: `${data.title} — Toxinology`,
     description: `${data.title} (${data.scientific_name}), ${data.risk}.`,
     bodyClass: "record-page",
-    cssHref: "../../assets/site.css",
+    cssHref: `../../assets/${siteCssFilename}`,
     homeHref: "../../../index.html",
     content: `<div class="legacy-shell">${sidebar({ homeHref: "../../index.html" })}<main class="legacy-main"><article class="record"><a class="back-bar" href="../../index.html"><span>‹</span> Back to Results</a><header class="record-header"><div><h1>${escapeHtml(data.title)}${data.aliases?.length ? `, ${data.aliases.map(escapeHtml).join(", ")}` : ""}</h1><p class="scientific">${escapeHtml(data.scientific_name)}</p></div></header>${taxonomy ? `<dl class="taxonomy">${taxonomy}</dl>` : ""}${gallery}<div class="tags record-tags">${tags}</div><div class="record-body">${renderRecordBody(body)}</div><aside class="source"><strong>Provenance</strong><p>Migrated from <a href="${escapeHtml(data.source_url || "#")}">the legacy Toxinology.com application</a> on ${escapeHtml(data.source_accessed || "an unknown date")}. Review status: ${escapeHtml(data.review_status || "not recorded")}.</p></aside></article></main></div>`
   });
@@ -230,10 +232,8 @@ for (const record of records) {
 
 const notFound = shell({ title: "Not found — Toxinology", description: "The requested Toxinology record was not found.", content: `<main class="not-found"><p class="eyebrow">404</p><h1>That record isn’t here.</h1><p>It may have moved or not yet been migrated.</p><a class="button" href="/">Search the catalogue</a></main>` });
 await writeFile(path.join(OUTPUT, "404.html"), notFound);
-const [standaloneCss, standaloneJs] = await Promise.all([
-  readFile(path.join(STYLE, "assets", "site.css"), "utf8"),
-  readFile(path.join(STYLE, "assets", "site.js"), "utf8")
-]);
+const standaloneCss = siteCssSource;
+const standaloneJs = publishedJsSource;
 const standalone = home
   .replace('<link rel="stylesheet" href="/assets/site.css">', `<style>${standaloneCss}</style>`)
   .replace('<script type="module" src="/assets/site.js"></script>', `<script>${standaloneJs.replaceAll("</script", "<\\/script")}</script>`)

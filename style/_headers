@@ -5,7 +5,7 @@
   X-Frame-Options: SAMEORIGIN
 
 /assets/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=300, s-maxage=86400, must-revalidate
 
 /search-index.json
   Cache-Control: public, max-age=300, s-maxage=3600
