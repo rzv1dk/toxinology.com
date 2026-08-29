@@ -76,6 +76,7 @@ button.side-action { cursor: default; opacity: 1; }
 .diagnostic-option:hover { background: rgba(255, 255, 255, .075); }
 .diagnostic-option:has(input:checked) { border-color: rgba(241, 250, 238, .3); color: var(--legacy-pale); background: rgba(255, 255, 255, .13); }
 .diagnostic-option input { margin: 2px 0 0; accent-color: var(--legacy-pale); }
+.diagnostic-option-link { color: rgba(241, 250, 238, .82); text-decoration: none; }
 .diagnostic-copy { min-width: 0; display: grid; gap: 2px; }
 .diagnostic-copy strong { font-size: 10.5px; line-height: 1.25; font-weight: 700; }
 .diagnostic-copy small { color: rgba(241, 250, 238, .5); font-size: 9px; line-height: 1.2; }
@@ -86,8 +87,9 @@ button.side-action { cursor: default; opacity: 1; }
 .side-filter small { opacity: .52; }
 .side-filter-label { min-width: 0; display: flex; align-items: flex-start; gap: 6px; }
 .country-flag { flex: 0 0 17px; width: 17px; overflow: hidden; font-family: "Apple Color Emoji", "Segoe UI Emoji", sans-serif; font-size: 13px; line-height: 1; text-align: center; }
-.side-filter-link { grid-template-columns: minmax(0, 1fr) auto; color: rgba(241, 250, 238, .76); text-decoration: none; }
+.side-filter-link { grid-template-columns: 15px minmax(0, 1fr) auto; color: rgba(241, 250, 238, .76); text-decoration: none; }
 .side-filter-link:hover { color: var(--legacy-pale); }
+.side-filter-marker { width: 13px; height: 13px; display: block; margin-top: 1px; border: 1px solid rgba(241, 250, 238, .55); border-radius: 2px; }
 .risk-section { margin-top: 36px; }
 #risk-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; margin-top: 9px; }
 #risk-filters[hidden] { display: none; }

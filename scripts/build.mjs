@@ -56,19 +56,22 @@ const tagOptions = prefix => [...new Set(index.flatMap(record => record.tags).fi
 const countryOptions = tagOptions("country:");
 const diagnosticOptions = tagOptions("diagnostic:");
 const keywordOptions = tagOptions("keyword:");
-const diagnosticDisplayLabels = {
-  "Direct Cardiotoxin Effect": "Heart or circulation effects",
-  "Abnormal Haemostasis and Bleeding": "Bleeding or abnormal clotting",
-  "Dermatological Effects": "Skin changes",
-  "Paralytic Neurotoxicity": "Weakness or paralysis",
-  "Effects on Red Blood Cells (potentially including haemolysis)": "Red blood cell damage",
-  "Myotoxic (local or systemic muscle damage)": "Muscle pain or damage",
-  "Non-specific General System Effects": "General whole-body symptoms",
-  "Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)": "White blood cell changes",
-  "Localised Effects at bite/string/contact location": "Bite, sting, or contact-site effects",
-  "Excitatory Neurotoxicity": "Agitation, spasms, or overactivity"
+const diagnosticPresentation = {
+  "Direct Cardiotoxin Effect": ["Heart or circulation effects", "Direct cardiotoxic effects"],
+  "Abnormal Haemostasis and Bleeding": ["Bleeding or abnormal clotting", "Haemostasis changes"],
+  "Dermatological Effects": ["Skin changes", "Rash, irritation, or other skin effects"],
+  "Paralytic Neurotoxicity": ["Weakness or paralysis", "Paralytic neurotoxicity"],
+  "Effects on Red Blood Cells (potentially including haemolysis)": ["Red blood cell damage", "May include haemolysis"],
+  "Myotoxic (local or systemic muscle damage)": ["Muscle pain or damage", "Local or systemic myotoxicity"],
+  "Non-specific General System Effects": ["General whole-body symptoms", "Non-specific systemic effects"],
+  "Effects on White Blood Cells (notably Leukocytosis and/or Lymphopenia)": ["White blood cell changes", "Leukocytosis or lymphopenia"],
+  "Localised Effects at bite/string/contact location": ["Bite, sting, or contact-site effects", "Local effects at the exposure site"],
+  "Excitatory Neurotoxicity": ["Agitation, spasms, or overactivity", "Excitatory neurotoxicity"]
 };
-const diagnosticLinkOptions = diagnosticOptions.map(option => ({ ...option, label: diagnosticDisplayLabels[option.label] || option.label }));
+const diagnosticLinkOptions = diagnosticOptions.map(option => {
+  const [label, detail] = diagnosticPresentation[option.label] || [option.label, "Observed clinical effect"];
+  return { ...option, label, detail };
+});
 const countryCodeAliases = {
   "Antigua and Barbuda": "AG", "Bosnia and Herzegovina": "BA", "Cabinda": "AO",
   "Canary Islands ( Spain )": "ES", "Cote d'Ivoire ( Ivory Coast )": "CI",
@@ -95,7 +98,8 @@ const countryLinkOptions = countryOptions.map(option => ({ ...option, icon: coun
 const speciesOptions = [...new Set(index.flatMap(record => record.species || []))]
   .map(value => ({ value, label: value, count: index.filter(record => record.species.includes(value)).length }))
   .sort((a, b) => a.label.localeCompare(b.label));
-const sideFilterLinks = (options, parameter, homeHref) => options.map(option => `<a class="side-filter side-filter-link" href="${escapeHtml(homeHref)}?${parameter}=${encodeURIComponent(option.tag)}"><span class="side-filter-label">${option.icon ? `<span class="country-flag" aria-hidden="true">${escapeHtml(option.icon)}</span>` : ""}<span>${escapeHtml(option.label)}</span></span><small>${option.count}</small></a>`).join("");
+const sideFilterLinks = (options, parameter, homeHref) => options.map(option => `<a class="side-filter side-filter-link" href="${escapeHtml(homeHref)}?${parameter}=${encodeURIComponent(option.tag)}"><span class="side-filter-marker" aria-hidden="true"></span><span class="side-filter-label">${option.icon ? `<span class="country-flag" aria-hidden="true">${escapeHtml(option.icon)}</span>` : ""}<span>${escapeHtml(option.label)}</span></span><small>${option.count}</small></a>`).join("");
+const diagnosticFilterLinks = (options, homeHref) => options.map(option => `<a class="diagnostic-option diagnostic-option-link" href="${escapeHtml(homeHref)}?diagnostic=${encodeURIComponent(option.tag)}"><span class="side-filter-marker" aria-hidden="true"></span><span class="diagnostic-copy"><strong>${escapeHtml(option.label)}</strong><small>${escapeHtml(option.detail)}</small></span><span class="diagnostic-total">${option.count}</span></a>`).join("");
 const speciesSelectOptions = () => speciesOptions.map(option => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)} (${option.count})</option>`).join("");
 
 const shell = ({ title, description, content, bodyClass = "", cssHref = "/assets/site.css", homeHref = "/" }) => `<!doctype html>
@@ -118,7 +122,7 @@ const sidebar = ({ homeHref = "index.html", searchable = false } = {}) => `<asid
   <section class="side-section"><h2>Location</h2><p>Select any countries. No country is selected by default.</p>${searchable ? `<div id="country-filters" class="side-filter-list country-filters"></div>` : `<div class="side-filter-list country-filters">${sideFilterLinks(countryLinkOptions, "country", homeHref)}</div>`}</section>
   <section class="side-section"><h2>Keywords</h2><p>Search by name, taxonomy, content, or keyword.</p>${searchable ? `<form class="search" role="search"><div class="search-box"><input id="query" type="search" list="keyword-options" aria-label="Search names, taxonomy, content, and keywords" autocomplete="off"><datalist id="keyword-options"></datalist><button type="reset" aria-label="Clear search">×</button></div></form>` : `<form class="search" role="search" action="${escapeHtml(homeHref)}"><div class="search-box"><input name="q" type="search" list="record-keyword-options" aria-label="Search names, taxonomy, content, and keywords" autocomplete="off"><datalist id="record-keyword-options">${keywordOptions.map(option => `<option value="${escapeHtml(option.label)}"></option>`).join("")}</datalist><button type="submit" aria-label="Search">›</button></div></form>`}</section>
   <section class="side-section"><h2>Primary Species</h2><p>Filter by a recorded species.</p>${searchable ? `<select id="species-filter" class="side-select" aria-label="Filter by primary species"><option value="">All species</option>${speciesSelectOptions()}</select>` : `<form class="side-select-form" action="${escapeHtml(homeHref)}"><select name="species" class="side-select" aria-label="Filter by primary species" onchange="this.form.submit()"><option value="">All species</option>${speciesSelectOptions()}</select></form>`}</section>
-  <section class="side-section diagnostic-section"><h2>Diagnostic Questionnaire</h2><p>${searchable ? "Select all observed effects. Results must match every selection." : "Choose an observed effect to view matching organisms."}</p>${searchable ? `<div class="diagnostic-status"><span id="diagnostic-selection" aria-live="polite">No effects selected</span><button id="clear-diagnostics" type="button" hidden>Clear</button></div><div id="diagnostic-filters" class="side-filter-list diagnostic-filters"></div><p class="diagnostic-note">This tool narrows catalogue results; it does not provide a diagnosis.</p>` : `<div class="side-filter-list diagnostic-filters">${sideFilterLinks(diagnosticLinkOptions, "diagnostic", homeHref)}</div>`}</section>
+  <section class="side-section diagnostic-section"><h2>Diagnostic Questionnaire</h2><p>Select one or more observed effects.</p><div class="diagnostic-status"><span${searchable ? ` id="diagnostic-selection" aria-live="polite"` : ""}>No effects selected</span>${searchable ? `<button id="clear-diagnostics" type="button" hidden>Clear</button>` : ""}</div>${searchable ? `<div id="diagnostic-filters" class="side-filter-list diagnostic-filters"></div>` : `<div class="side-filter-list diagnostic-filters">${diagnosticFilterLinks(diagnosticLinkOptions, homeHref)}</div>`}<p class="diagnostic-note">This tool narrows catalogue results; it does not provide a diagnosis.</p></section>
   ${searchable ? `<div id="risk-filters" hidden></div>` : ""}
   <p class="medical-note">Information catalogue only. In an emergency, contact local emergency services or a poison information centre.</p>
 </aside>`;
