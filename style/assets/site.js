@@ -29,6 +29,46 @@ const diagnosticPresentation = {
   "Localised Effects at bite/string/contact location": ["Bite, sting, or contact-site effects", "Local effects at the exposure site"],
   "Excitatory Neurotoxicity": ["Agitation, spasms, or overactivity", "Excitatory neurotoxicity"]
 };
+const countryCodeAliases = {
+  "Antigua and Barbuda": "AG",
+  "Bosnia and Herzegovina": "BA",
+  "Cabinda": "AO",
+  "Canary Islands ( Spain )": "ES",
+  "Cote d'Ivoire ( Ivory Coast )": "CI",
+  "Czechoslavakian Republic": "CZ",
+  "Democratic Republic of Congo": "CD",
+  "England": "GB",
+  "Federated States of Micronesia": "FM",
+  "Galapagos Islands ( Ecuador )": "EC",
+  "Macedonia": "MK",
+  "Myanmar": "MM",
+  "Republic of Congo": "CG",
+  "Reunion": "RE",
+  "Saint Kitts and Nevis": "KN",
+  "Saint Lucia": "LC",
+  "Saint Vincent and the Grenadines": "VC",
+  "Sao Tome and Principe": "ST",
+  "South Korea": "KR",
+  "North Korea": "KP",
+  "Turkey": "TR",
+  "Trinidad and Tobago": "TT",
+  "United States of America": "US",
+  "Wales": "GB",
+  "West Sahara": "EH",
+  "Yugoslavia": "RS"
+};
+const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
+const regionCodeByName = new Map();
+for (let first = 65; first <= 90; first += 1) for (let second = 65; second <= 90; second += 1) {
+  const code = String.fromCharCode(first, second);
+  const name = regionNames.of(code);
+  if (name && name !== code) regionCodeByName.set(name.toLocaleLowerCase(), code);
+}
+const countryFlag = name => {
+  const plainName = name.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  const code = countryCodeAliases[name] || regionCodeByName.get(plainName.toLocaleLowerCase());
+  return code ? String.fromCodePoint(...code.split("").map(character => 127397 + character.charCodeAt(0))) : "🏳️";
+};
 const esc = value => String(value ?? "").replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 const title = value => value.replaceAll("-", " ").replace(/\b\w/g, char => char.toUpperCase());
 const fileMode = location.protocol === "file:";
@@ -65,13 +105,14 @@ function makeFilters(rootId, values, key, formatter = value => value) {
   }
 }
 
-function makeTagFilters(rootId, values, stateKey, className, formatter) {
+function makeTagFilters(rootId, values, stateKey, className, formatter, iconFor = null) {
   const root = document.querySelector(rootId);
   for (const value of values) {
     const amount = records.filter(record => record.tags.includes(value)).length;
     const option = document.createElement("label");
     option.className = className;
-    option.innerHTML = `<input type="checkbox" value="${esc(value)}"><span>${esc(formatter(value))}</span><small>${amount}</small>`;
+    const formatted = formatter(value);
+    option.innerHTML = `<input type="checkbox" value="${esc(value)}"><span class="side-filter-label">${iconFor ? `<span class="country-flag" aria-hidden="true">${esc(iconFor(formatted))}</span>` : ""}<span>${esc(formatted)}</span></span><small>${amount}</small>`;
     option.querySelector("input").addEventListener("change", event => {
       event.target.checked ? state[stateKey].add(value) : state[stateKey].delete(value);
       render();
@@ -107,7 +148,7 @@ makeFilters("#risk-filters", [...new Set(records.map(r => r.risk))].sort((a,b) =
 const countryTags = [...new Set(records.flatMap(record => record.tags).filter(tag => tag.startsWith(countryPrefix)))].sort((a, b) => a.localeCompare(b));
 const diagnosticTags = [...new Set(records.flatMap(record => record.tags).filter(tag => tag.startsWith(diagnosticPrefix)))].sort((a, b) => a.localeCompare(b));
 const keywordTags = [...new Set(records.flatMap(record => record.tags).filter(tag => tag.startsWith(keywordPrefix)))].sort((a, b) => a.localeCompare(b));
-makeTagFilters("#country-filters", countryTags, "countries", "side-filter", value => value.slice(countryPrefix.length));
+makeTagFilters("#country-filters", countryTags, "countries", "side-filter", value => value.slice(countryPrefix.length), countryFlag);
 makeDiagnosticFilters(diagnosticTags);
 document.querySelector("#keyword-options").innerHTML = keywordTags.map(value => `<option value="${esc(value.slice(keywordPrefix.length))}"></option>`).join("");
 

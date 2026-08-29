@@ -69,10 +69,33 @@ const diagnosticDisplayLabels = {
   "Excitatory Neurotoxicity": "Agitation, spasms, or overactivity"
 };
 const diagnosticLinkOptions = diagnosticOptions.map(option => ({ ...option, label: diagnosticDisplayLabels[option.label] || option.label }));
+const countryCodeAliases = {
+  "Antigua and Barbuda": "AG", "Bosnia and Herzegovina": "BA", "Cabinda": "AO",
+  "Canary Islands ( Spain )": "ES", "Cote d'Ivoire ( Ivory Coast )": "CI",
+  "Czechoslavakian Republic": "CZ", "Democratic Republic of Congo": "CD", "England": "GB",
+  "Federated States of Micronesia": "FM", "Galapagos Islands ( Ecuador )": "EC", "Macedonia": "MK",
+  "Myanmar": "MM", "Republic of Congo": "CG", "Reunion": "RE", "Saint Kitts and Nevis": "KN",
+  "Saint Lucia": "LC", "Saint Vincent and the Grenadines": "VC", "Sao Tome and Principe": "ST",
+  "South Korea": "KR", "North Korea": "KP", "Trinidad and Tobago": "TT", "Turkey": "TR",
+  "United States of America": "US", "Wales": "GB", "West Sahara": "EH", "Yugoslavia": "RS"
+};
+const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
+const regionCodeByName = new Map();
+for (let first = 65; first <= 90; first += 1) for (let second = 65; second <= 90; second += 1) {
+  const code = String.fromCharCode(first, second);
+  const name = regionNames.of(code);
+  if (name && name !== code) regionCodeByName.set(name.toLocaleLowerCase(), code);
+}
+const countryFlag = name => {
+  const plainName = name.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  const code = countryCodeAliases[name] || regionCodeByName.get(plainName.toLocaleLowerCase());
+  return code ? String.fromCodePoint(...code.split("").map(character => 127397 + character.charCodeAt(0))) : "🏳️";
+};
+const countryLinkOptions = countryOptions.map(option => ({ ...option, icon: countryFlag(option.label) }));
 const speciesOptions = [...new Set(index.flatMap(record => record.species || []))]
   .map(value => ({ value, label: value, count: index.filter(record => record.species.includes(value)).length }))
   .sort((a, b) => a.label.localeCompare(b.label));
-const sideFilterLinks = (options, parameter, homeHref) => options.map(option => `<a class="side-filter side-filter-link" href="${escapeHtml(homeHref)}?${parameter}=${encodeURIComponent(option.tag)}"><span>${escapeHtml(option.label)}</span><small>${option.count}</small></a>`).join("");
+const sideFilterLinks = (options, parameter, homeHref) => options.map(option => `<a class="side-filter side-filter-link" href="${escapeHtml(homeHref)}?${parameter}=${encodeURIComponent(option.tag)}"><span class="side-filter-label">${option.icon ? `<span class="country-flag" aria-hidden="true">${escapeHtml(option.icon)}</span>` : ""}<span>${escapeHtml(option.label)}</span></span><small>${option.count}</small></a>`).join("");
 const speciesSelectOptions = () => speciesOptions.map(option => `<option value="${escapeHtml(option.value)}">${escapeHtml(option.label)} (${option.count})</option>`).join("");
 
 const shell = ({ title, description, content, bodyClass = "", cssHref = "/assets/site.css", homeHref = "/" }) => `<!doctype html>
@@ -92,7 +115,7 @@ const shell = ({ title, description, content, bodyClass = "", cssHref = "/assets
 
 const sidebar = ({ homeHref = "index.html", searchable = false } = {}) => `<aside class="legacy-sidebar">
   <a class="legacy-logo" href="${homeHref}">Toxinology.com <small>BETA</small></a>
-  <section class="side-section"><h2>Location</h2><p>Select any countries. No country is selected by default.</p>${searchable ? `<div id="country-filters" class="side-filter-list country-filters"></div>` : `<div class="side-filter-list country-filters">${sideFilterLinks(countryOptions, "country", homeHref)}</div>`}</section>
+  <section class="side-section"><h2>Location</h2><p>Select any countries. No country is selected by default.</p>${searchable ? `<div id="country-filters" class="side-filter-list country-filters"></div>` : `<div class="side-filter-list country-filters">${sideFilterLinks(countryLinkOptions, "country", homeHref)}</div>`}</section>
   <section class="side-section"><h2>Keywords</h2><p>Search by name, taxonomy, content, or keyword.</p>${searchable ? `<form class="search" role="search"><div class="search-box"><input id="query" type="search" list="keyword-options" aria-label="Search names, taxonomy, content, and keywords" autocomplete="off"><datalist id="keyword-options"></datalist><button type="reset" aria-label="Clear search">×</button></div></form>` : `<form class="search" role="search" action="${escapeHtml(homeHref)}"><div class="search-box"><input name="q" type="search" list="record-keyword-options" aria-label="Search names, taxonomy, content, and keywords" autocomplete="off"><datalist id="record-keyword-options">${keywordOptions.map(option => `<option value="${escapeHtml(option.label)}"></option>`).join("")}</datalist><button type="submit" aria-label="Search">›</button></div></form>`}</section>
   <section class="side-section"><h2>Primary Species</h2><p>Filter by a recorded species.</p>${searchable ? `<select id="species-filter" class="side-select" aria-label="Filter by primary species"><option value="">All species</option>${speciesSelectOptions()}</select>` : `<form class="side-select-form" action="${escapeHtml(homeHref)}"><select name="species" class="side-select" aria-label="Filter by primary species" onchange="this.form.submit()"><option value="">All species</option>${speciesSelectOptions()}</select></form>`}</section>
   <section class="side-section diagnostic-section"><h2>Diagnostic Questionnaire</h2><p>${searchable ? "Select all observed effects. Results must match every selection." : "Choose an observed effect to view matching organisms."}</p>${searchable ? `<div class="diagnostic-status"><span id="diagnostic-selection" aria-live="polite">No effects selected</span><button id="clear-diagnostics" type="button" hidden>Clear</button></div><div id="diagnostic-filters" class="side-filter-list diagnostic-filters"></div><p class="diagnostic-note">This tool narrows catalogue results; it does not provide a diagnosis.</p>` : `<div class="side-filter-list diagnostic-filters">${sideFilterLinks(diagnosticLinkOptions, "diagnostic", homeHref)}</div>`}</section>
